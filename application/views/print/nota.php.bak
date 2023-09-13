@@ -1,0 +1,36 @@
+					<h3 class="print-title text-center">Nota</h3>
+					<table border="0">
+						<tr>
+							<td>No Nota<td>
+							<td>:</td>
+							<td><?php echo $data['id_transaksi']; ?></td>
+						</tr>
+						<tr>
+							<td>Tanggal<td>
+							<td>:</td>
+							<td><?php echo $data['tgl_transaksi']; ?></td>
+						</tr>
+					</table>
+					<table class="table table-bordered">
+						<thead>
+							<th>Banyaknya</th>
+							<th>Barang</th>
+							<th>Jumlah</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td><?php echo $data['jml']; ?></td>
+								<td><?php echo $data['nm_sampah']; ?></td>
+								<td></td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<th colspan="2">Total</th>
+							<th></th>
+						</tfoot>
+					</table>
+				</div>	
+			</div>
+		</form>
+		
+	</div>
